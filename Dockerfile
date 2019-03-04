@@ -3,7 +3,7 @@ FROM jenkinsci/jnlp-slave
 # File Author / Maintainer
 MAINTAINER Jorge Acetozi
 
-ENV KUBECTL_VERSION=v1.7.0
+ENV KUBECTL_VERSION=v1.13.1
 
 USER root
 
