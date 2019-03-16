@@ -1,9 +1,9 @@
-FROM jenkinsci/jnlp-slave
+FROM jenkins/jnlp-slave:alpine
 
 # File Author / Maintainer
 MAINTAINER Jorge Acetozi
 
-ENV KUBECTL_VERSION=v1.13.1
+ENV KUBECTL_VERSION=v1.13.4
 
 USER root
 
